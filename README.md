@@ -22,11 +22,11 @@ The script simply traverses your working directory, stores the names of all fold
 
 ```
 
-Given the folder structure above, after placing the script at root level and executing it with `node index.js` you get the results depicted below. An automatically populated list of scopes for your project.
+Given the folder structure above, after placing the script at root level and executing it with `node index.js` your workspace setting will automatically populate with a list of scopes that can help you and your team adopt a meaningfull common ground for writing conventional commits.
 
 ### Result
 The folder paths will be saved as available scopes in your local workspace settings after execution.
-```json
+```js
 {
   // .vscode/settings.json
   "conventionalCommits.scopes": [
