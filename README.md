@@ -24,8 +24,8 @@ The script simply traverses your working directory, stores the names of all fold
 
 Given the folder structure above, after placing the script at root level and executing it with `node index.js` your workspace setting will automatically populate with a list of scopes that can help you and your team adopt a meaningfull common ground for writing conventional commits.
 
-### Result
-The folder paths will be saved as available scopes in your local workspace settings after execution.
+### Example Result: settings.json
+The script will write all folder and sub-folder names to the `scopes` key in your local conventional commit workspace settings after execution.
 ```js
 {
   // .vscode/settings.json
@@ -38,7 +38,10 @@ The folder paths will be saved as available scopes in your local workspace setti
   ]
 }
 ```
-CComits VSCode Extension will then be able to auto suggest the scopes generated whenever you use the extension to commit.
+### Example Result: VSCode CComits Extension
+
+[CComits VSCode Extension](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) will then be able to auto suggest the scopes generated whenever you use the extension to commit.
+
 ![image](https://github.com/arienshibani/ccommits-scope-builder/assets/22197324/230ddd6a-f5a1-4928-ad33-443ebb52a93c)
 
 
