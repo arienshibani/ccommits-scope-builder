@@ -1,4 +1,3 @@
-const { test, expect } = require('jest');
 const { removeDuplicateSegments } = require('../index');
 
 test('removeDuplicateSegments removes duplicate segments from file path', () => {
