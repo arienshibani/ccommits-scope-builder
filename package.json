@@ -4,7 +4,8 @@
   "description": "Node script that automatically populates conventional commits copes in settings.json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/arienshibani/CCommits-scope-builder/issues"
   },
-  "homepage": "https://github.com/arienshibani/CCommits-scope-builder#readme"
+  "homepage": "https://github.com/arienshibani/CCommits-scope-builder#readme",
+  "dependencies": {
+    "standard-version": "^9.5.0"
+  }
 }
