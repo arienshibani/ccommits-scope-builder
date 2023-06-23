@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arienshibani/CCommits-scope-builder.git"
+    "url": "git+https://github.com/arienshibani/ccommits-scope-builder.git"
   },
   "keywords": [
     "conventionalcommits"
@@ -17,9 +17,9 @@
   "author": "Arien Shibani",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arienshibani/CCommits-scope-builder/issues"
+    "url": "https://github.com/arienshibani/ccommits-scope-builder/issues"
   },
-  "homepage": "https://github.com/arienshibani/CCommits-scope-builder#readme",
+  "homepage": "https://github.com/arienshibani/ccommits-scope-builder#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.22.5",
     "babel-jest": "^29.5.0",
