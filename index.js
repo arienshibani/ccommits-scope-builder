@@ -33,7 +33,6 @@ const ensureVsCodeFolderAndSettingsFile = () => {
 }
 
 const traverseDirectory = (dir, ignoreList = []) => {
-    ensureVsCodeFolderAndSettingsFile()
     const files = fs.readdirSync(dir);
     let results = [];
     files.forEach(file => {
@@ -49,6 +48,9 @@ const traverseDirectory = (dir, ignoreList = []) => {
     });
     return results;
   }
+
+// Start by making sure that the ".vscode" folder and the "settings.json" file exists.
+ensureVsCodeFolderAndSettingsFile()
 
 // Define a list of folders to ignore
 const ignoreList = ['.git', '.github', 'node_modules'];
