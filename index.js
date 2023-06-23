@@ -32,7 +32,7 @@ const ensureVsCodeFolderAndSettingsFile = () => {
     }
 }
 
-function traverseDirectory(dir, ignoreList = []) {
+const traverseDirectory = (dir, ignoreList = []) => {
     ensureVsCodeFolderAndSettingsFile()
     const files = fs.readdirSync(dir);
     let results = [];
