@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* :rocket: Init project ([04ffa53](https://github.com/arienshibani/CCommits-scope-builder/commit/04ffa53172c533490723f5b7c41d31180bcebe0d))
+* 🚀 Init project ([04ffa53](https://github.com/arienshibani/CCommits-scope-builder/commit/04ffa53172c533490723f5b7c41d31180bcebe0d))
 * **package.json:** 📦️ Add standard release support. ([267662c](https://github.com/arienshibani/CCommits-scope-builder/commit/267662c68b2748822fc59dbba582be47745aa755))
 
 
