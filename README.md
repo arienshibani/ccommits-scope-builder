@@ -45,4 +45,4 @@ CComits VSCode Extension will then be able to auto suggest the scopes generated 
 
 ### Why folders as scopes?
 
-Scopes should indicate the module, package, or area of the code that was affected by the changes made in the commit. Rather than using specific file paths, directories *feels*   better to use.
+Scopes should indicate the module, package, or area of the code that was affected by the changes made in the commit. Rather than using specific file paths, directories *feels*   better to use in my opinion. Option for specifying every file as well as ignoring paths in .gitignore will be added later to the script.
