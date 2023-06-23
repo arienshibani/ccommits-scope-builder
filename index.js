@@ -1,6 +1,6 @@
 // Get the current working directory
-const fs = require('fs');
-const path = require('path');
+import * as fs from 'fs';
+import * as path from 'path';
 
 // Used to prevent duplicates in the file paths that sometimes occur.
 export const removeDuplicateSegments = (str) => {

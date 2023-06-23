@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Node script that automatically populates conventional commits copes in settings.json",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "start": "node index.js",
     "release": "standard-version"
