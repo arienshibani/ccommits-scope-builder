@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/arienshibani/CCommits-scope-builder#readme",
   "devDependencies": {
+    "eslint": "^8.43.0",
     "standard-version": "^9.5.0"
   }
 }
