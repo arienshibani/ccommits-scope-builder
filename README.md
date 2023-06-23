@@ -39,7 +39,8 @@ The folder paths will be saved as available scopes in your local workspace setti
 }
 ```
 CComits VSCode Extension will then be able to auto suggest the scopes generated whenever you use the extension to commit. This is usefull for larger projects that want to jump-start their CComits adoption.
-![image](https://github.com/arienshibani/CCommits-scope-builder/assets/22197324/6c147f0e-c6c4-46e3-969d-8ae1aa3e91ce) 
+![image](https://github.com/arienshibani/ccommits-scope-builder/assets/22197324/230ddd6a-f5a1-4928-ad33-443ebb52a93c)
+
 
 
 
