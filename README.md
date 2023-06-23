@@ -1,15 +1,15 @@
-# VSCode CComits Scope Builder
+# VSCode CComits Scope Builder 🔎
 
-Node script that automatically populate CComits scopes in your `.vscode/settings.json` file used by the [CComits VSCode extension](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) to help you write better commit messages in large projects and mono-repos.
+Node script that automatically populates your conventional commit scopes in your repositories `.vscode/settings.json` file, used by the [VSCode CComits extension](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) to help developers in your team create meaningfull commit messages. The script uses the paths of folders, and sub-folders by default to create these scopes.
 
-## Quickstart
+## Quickstart 🚀
 * Requires [Node](https://nodejs.org/en) v.16 or higher
 1. Copy the `index.js` file from this repo, and paste it at the root level of your repository.
 2. Execute the script with `node index.js`
 
 ## Conventional Commits
 
-[Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) is a convention for writing commit messages. It provides a set of rules for creating an explicit commit history.
+[Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) is a convention for writing commit messages. It provides a set of rules for creating an explicit commit history, and if used properly, can be used to auto generate changelogs.
 
 ## How does it work?
 
