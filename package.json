@@ -20,7 +20,7 @@
     "url": "https://github.com/arienshibani/CCommits-scope-builder/issues"
   },
   "homepage": "https://github.com/arienshibani/CCommits-scope-builder#readme",
-  "dependencies": {
+  "devDependencies": {
     "standard-version": "^9.5.0"
   }
 }
