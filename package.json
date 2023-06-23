@@ -1,0 +1,22 @@
+{
+  "name": "ccommits-scope-builder",
+  "version": "1.0.0",
+  "description": "Node script that automatically populates conventional commits copes in settings.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arienshibani/CCommits-scope-builder.git"
+  },
+  "keywords": [
+    "conventionalcommits"
+  ],
+  "author": "Arien Shibani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arienshibani/CCommits-scope-builder/issues"
+  },
+  "homepage": "https://github.com/arienshibani/CCommits-scope-builder#readme"
+}
