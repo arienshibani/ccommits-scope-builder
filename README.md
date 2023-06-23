@@ -2,6 +2,11 @@
 
 Node script that automatically populate CComits scopes in your `.vscode/settings.json` file used by the [CComits VSCode extension](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) to help you write better commit messages in large projects and mono-repos.
 
+## Quickstart
+* Requires [Node](https://nodejs.org/en) v.16 or higher
+1. Copy the `index.js` file from this repo, and paste it at the root level of your repository.
+2. Execute the script with `node index.js`
+
 ## Conventional Commits
 
 [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/) is a convention for writing commit messages. It provides a set of rules for creating an explicit commit history.
