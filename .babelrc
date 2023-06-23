@@ -1,0 +1,14 @@
+// Config needed for jest to work with babel
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+  
