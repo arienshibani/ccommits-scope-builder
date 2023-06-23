@@ -25,7 +25,7 @@ The script simply traverses your working directory, stores the names of all fold
 Given the folder structure above, after placing the script at root level and executing it with `node index.js` you get the results depicted below. An automatically populated list of scopes for your project.
 
 ### Result
-
+The folder paths will be saved as available scopes in your local workspace settings after execution.
 ```json
 {
   // .vscode/settings.json
@@ -38,6 +38,10 @@ Given the folder structure above, after placing the script at root level and exe
   ]
 }
 ```
+CComits VSCode Extension will then be able to auto suggest the scopes generated whenever you use the extension to commit. This is usefull for larger projects that want to jump-start their CComits adoption.
+![image](https://github.com/arienshibani/CCommits-scope-builder/assets/22197324/6c147f0e-c6c4-46e3-969d-8ae1aa3e91ce) 
+
+
 
 ### Why folders as scopes?
 
