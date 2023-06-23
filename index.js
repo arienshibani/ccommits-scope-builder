@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Used to prevent duplicates in the file paths that sometimes occur.
-const removeDuplicateSegments = (str) => {
+export const removeDuplicateSegments = (str) => {
   const segments = str.split('/');
   const uniqueSegments = [];
 
@@ -17,7 +17,7 @@ const removeDuplicateSegments = (str) => {
 };
 
 // Makes sure that the "settings.json" file exists, and that the ".vscode" folder exists.
-const ensureVsCodeFolderAndSettingsFile = () => {
+export const ensureVsCodeFolderAndSettingsFile = () => {
   const vscodeDir = path.join(process.cwd(), '.vscode');
   const settingsPath = path.join(vscodeDir, 'settings.json');
 
@@ -32,7 +32,7 @@ const ensureVsCodeFolderAndSettingsFile = () => {
 
 // Main function that traverses the directory and returns a list of all the folders.
 const rootDir = process.cwd();
-const traverseDirectory = (dir, ignoreList = []) => {
+export const traverseDirectory = (dir, ignoreList = []) => {
   const files = fs.readdirSync(dir);
   let results = [];
   files.forEach((file) => {
